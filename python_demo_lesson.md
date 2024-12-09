@@ -13,15 +13,15 @@ paginate: true
 
 ## Variables, Data Types, Operators, and Input/Output
 
+<!-- Notes for interviewers: this lesson would be taught after a brief overview of python and programming languages -->
+
 # Getting started
 
 Today we will be using **Google Colab!**
 
 ![bg right:50% contain](./deploying-textclassification-colab-activelearning.webp)
 
-## Please click the link in chat
-
-*(Pssst!  Will!  Put the [link](https://colab.research.google.com/drive/1LlL6-4H3uZYC7e0uz9aRmOHhpI1_J3Fj?usp=sharing) in the chat!)*
+## Click [Here](https://colab.research.google.com/drive/1LlL6-4H3uZYC7e0uz9aRmOHhpI1_J3Fj?usp=sharing)
 
 Then click file -> "Open in playground mode"
 
@@ -52,11 +52,8 @@ print("Hello, World!")
 
 <!-- Give me a thumbs up when you're ready! -->
 
-<!-- Notes: What is this print() thing?
-
-This is one of many built-in "functions" available in Python.  In describing this line, one would say that we are "calling the print function and passing in the variable 'a'." Don't worry for now if that's too much to remember!
-
-A function is kind of a mini-program. Soon you'll be writing your own functions, but we will only be using or "calling" them for now. -->
+<!-- 
+`print()` is one of many built-in "functions" available in Python.  In describing this line, one would say that we are "calling the print function and passing in the variable 'a'." Don't worry for now if that's too much to remember! A function is kind of a mini-program. Soon you'll be writing your own functions, but we will only be using or "calling" them for now. -->
 
 # Variables
 
@@ -74,6 +71,13 @@ print("You are", age, "years old.")
 # Naming Variables
 
 In lines 1 and 2 we are "assigning" a value to variables. You can name a variable whatever you want, but it should describe what it stores, just like labeling moving boxes!
+
+Can you pick out the least helpful name?
+
+a. Clothes
+b. Books
+c. Stuff
+d. Pillows
 
 ![bg right:40% contain](./boxes-2.jpg)
 
@@ -125,8 +129,11 @@ print(today) # this would print 'Monday'
 - Variable names must begin with a letter or an underscore (`_`).
 
 - There are some *conventions* you should follow:
-  - If your name has a space in it replace the space with an underscore.
-  - Only use lowercase letters. Uppercase names are reserved for classes, which we'll get to later.
+  - If your name has a space in it replace the space with an underscore. This is called "snake case"!
+    - Example: `my_name`
+  - Only use lowercase letters for variable names.
+    - Uppercase names are reserved for classes, which we'll get to later.
+    - All capital letters are for constants, variables that should not change value.
 
 # Data Types
 
@@ -166,8 +173,6 @@ type(dog)
 <!-- Run the code above and give me a thumbs up! -->
 
 # Operators
-
-# Operators (Slide 13)
 
 We can do arithmetic with these operators:
 
