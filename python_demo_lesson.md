@@ -21,11 +21,13 @@ Today we will be using **Google Colab!**
 
 ![bg right:50% contain](./deploying-textclassification-colab-activelearning.webp)
 
-## Click [Here](https://colab.research.google.com/drive/1LlL6-4H3uZYC7e0uz9aRmOHhpI1_J3Fj?usp=sharing)
+## Click the link in Chat
+
+[Link](https://colab.research.google.com/drive/1LlL6-4H3uZYC7e0uz9aRmOHhpI1_J3Fj?usp=sharing)
 
 Then click file -> "Open in playground mode"
 
-<!-- Give me a thumbs up when you're ready to move on! -->
+<!-- Give me a thumbs up when you're ready to move on! By the way, I also want you to disable AI suggestions by going to settings (gear icon at the top right) and clicking AI Assistance, then uncheck "show AI-powered inline completions" if it's checked. -->
 
 # Google Colab
 
@@ -36,7 +38,7 @@ Colab runs Jupyter Notebooks, a type of file that combines text and Python code 
   - `Alt+Tab` to switch between windows
   - `Ctrl+Tab` and `Ctrl+Shift+Tab` to go back and forth between tabs
 
-<!-- You'll need to switch back and forth between Teams and your browser. I've indicated the slide numbers beside each section of the notebook to help you keep track of where we are in the lesson. I also want you to disable AI suggestions by going to settings (gear icon at the top right) and clicking AI Assistance, then uncheck "show AI-powered inline completions" if it's checked. -->
+<!-- You'll need to switch back and forth between Teams and your browser. These slides mirror the notebook, and I've indicated the slide numbers beside each section of the notebook to help you keep track of where we are in the lesson.  -->
 
 # Hello World
 
@@ -46,6 +48,7 @@ Keeping with tradition we'll start by printing "Hello, World!" to the console.
 print("Hello, World!")
 ```
 
+- It will take a bit longer to run this first code block
 - Run it by clicking the little play button: ![play_btn](./play_btn.png)
 - or typing `Shift + Enter`
 - Try changing the words between the double-quotes and run it again!
